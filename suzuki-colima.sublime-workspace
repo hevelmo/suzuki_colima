@@ -713,9 +713,14 @@
 		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 287.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1811,8 +1816,8 @@
 						"selection":
 						[
 							[
-								190182,
-								190182
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1822,7 +1827,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 49673.0,
+						"translation.y": 343.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1866,6 +1871,7 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "suzuki-colima.sublime-project",
 	"replace":
 	{
@@ -1875,6 +1881,7 @@
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1887,11 +1894,12 @@
 	"select_project":
 	{
 		"height": 500.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
 				"",
-				"/Applications/MAMP/htdocs/suzuki-morelia/suzuki-morelia.sublime-project"
+				"/Applications/MAMP/htdocs/suzuki-vallarta/susuki-vallarta.sublime-project"
 			],
 			[
 				"dkh",
@@ -1911,6 +1919,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
