@@ -32,13 +32,13 @@
 		$suscripcion = "Activado";
 		$from = $mail;
 		$encabezados = "From:".$nombre."<" . $from. ">"; //optional headerfields
-		$mensaje = "Asunto: Funanciamiento Newsletter - Suzuki Colima.\n\n";
+		$mensaje = "Asunto: Financiamiento Newsletter - Suzuki Colima.\n\n";
 		$mensaje .= "Nombre(s): "  .$nombre. "\n";
 		$mensaje .= "Apellido(s): " .$apellido. "\n";
 		$mensaje .= "Correo Electrónico: " .$mail. "\n";
 		$mensaje .= "Concesionaria: " .$concesionaria. "\n";
-		mail('webmaster@medigraf.com.mx', 'Funanciamiento Newsletter - Suzuki Colima', $mensaje, $encabezados) or die('¡Error!');
-		//mail('heriberto@medigraf.com.mx', 'Funanciamiento Newsletter - Suzuki Colima', $mensaje, $encabezados) or die("¡Error!");
+		mail('webmaster@medigraf.com.mx', 'Financiamiento Newsletter - Suzuki Colima', $mensaje, $encabezados) or die('¡Error!');
+		//mail('heriberto@medigraf.com.mx', 'Financiamiento Newsletter - Suzuki Colima', $mensaje, $encabezados) or die("¡Error!");
 	} else {
 		$suscripcion = "Desactivado";
 	}

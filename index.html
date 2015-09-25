@@ -7,6 +7,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Suzuki Autos Colima</title>
+        <link rel="shortcut icon" href="favicon.ico">
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <!--<meta name="google-site-verification" content="0000000000000000" />-->
@@ -17,12 +18,20 @@
         <link type="text/css" rel="stylesheet" href="css/plugins/jquery.chosen/chosen.css" />
         <link type="text/css" rel="stylesheet" href="css/libs/datepicker.css" />
         <link type="text/css" rel="stylesheet" href="css/suzuki/main.css" />
+        <link type="text/css" rel="stylesheet" href="css/main.css" />
         <link type="text/css" rel="stylesheet" href="css/webfonts/fontawesome/font-awesome.css" />
         <link type="text/css" rel="stylesheet" href="css/webfonts/suzuki-webfontkit/stylesheet.css" />
         <link type="text/css" rel="stylesheet" href="css/plugins/jquery.dummy-alert/main.css" />
         <link type="text/css" rel="stylesheet" href="css/plugins/instantdrive.utils/main.css" />
         <link type="text/css" rel="stylesheet" href="css/sections/home.css" />
         <link type="text/css" rel="stylesheet" href="css/sections/models-home.css" />
+        <!-- Favicons
+         ==================================================
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+        -->
         <!-- Google Analytics -->
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -37,7 +46,7 @@
         <!-- End Google Analytics -->
         <script type='text/javascript'>
             function trackOutboundLink( url ) {
-            	ga('send', 'event', 'outbound', 'click', url, {'hitCallback': function () { document.location = url; } });
+                ga('send', 'event', 'outbound', 'click', url, {'hitCallback': function () { document.location = url; } });
             }
             //Usage :
             //<a href="http://www.example.com" onclick=”trackOutboundLink(‘http://www.example.com’); return false;">Check out example.com</a>
@@ -158,7 +167,7 @@
                                     <div class="specifications-wrapper">
                                         <div class="specifications" id="features-wrapper">
                                             <!-- slide 00 -->
-                                            <div class="specification" style="background-image: url('images/sections/home/slider/slider_sitios_web.jpg');">
+                                            <div class="specification" style="background-image: url('images/sections/home/slider/SLIDER-DE-PROMOCIONES-1659X655.jpg');">
                                                 <div class="title-wrapper" style="color: #fff">
                                                     <div class="title">
                                                         &nbsp;
@@ -220,10 +229,10 @@
                         </div>
                     </div>
                     <div class="section-title hide_s-cross" style="margin-bottom: 0; border-bottom: none;">
-                        <p class="title">Nuevo ciaz</p>
+                        <p class="title">Edición especial</p>
                     </div>
                     <section>
-                        <div id="home-scross" style="background: #9ca9af;">
+                        <div id="home-scross" class="home-promo-gradient">
                             <div class="full_width">
                                 <div class="hover_details" style="display: none;">
                                     <div class="relative">
@@ -233,7 +242,11 @@
                                     </div>
                                 </div>
                                 <img class="scross_bg flash" src="images/sections/home/s-cross/car-on.jpg" alt="S-cross"/ style="opacity: 0; display: block; display: none">
-                                <img class="scross_bg" src="images/sections/home/s-cross/car.jpg" alt="Ciaz"/>
+                                <img class="scross_bg" src="images/sections/home/s-cross/car.jpg" alt="Ciaz"/ style="opacity: 0; display: block; display: none">
+                                <a id="home-swift-2016"><span>Swift 2016</span></a>
+                                <a id="home-kizashi-2016"><span>Kizashi 2016</span></a>
+                                <img class="scross_bg no-mobile" src="images/sections/home/s-cross/inferior-de-modelos-especiales.jpg" alt="Edición especial"/>
+                                <img class="scross_bg mobile" src="images/sections/home/s-cross/inferior-de-modelos-especiales-responsive.jpg" alt="Edición especial"/>
                             </div>
                             <div class="s-cross_form hidden">
                                 <div class="promo-video-bg">
@@ -378,28 +391,28 @@
                     </div>
                     <div class="footer-row first row-1">
                         <div class="footer-column column-c">
-                            <div class="footer-title"><a href="http://www.suzukicolima.com.mx" target="_blank" style="color: #fff; font-weight: 900; font-size: 16px;">Colima</a></div>
+                            <div class="footer-title"><a href="http://www.suzukicolima.com.mx" target="_blank" style="color: #fff; font-weight: 900; font-size: 16px;">Suzuki Colima</a></div>
                             Av. Felipe Sevilla No. 536<br/>
                             Col. Lomas de Circunvalación. Colima, Colima.<br/>
                             Tel. 01(31)2316-3263
                             <div class="clearfix"></div>
                         </div>
                         <div class="footer-column column-c">
-                            <div class="footer-title"><a href="http://www.suzukimorelia.com.mx" target="_blank" style="color: #fff; font-weight: 900; font-size: 16px;">Morelia</a></div>
+                            <div class="footer-title"><a href="http://www.suzukimorelia.com.mx" target="_blank" style="color: #fff; font-weight: 900; font-size: 16px;">Suzuki Morelia</a></div>
                             Periférico Paseo de la Republica 3169 Colonia Las Américas<br/>
                             Morelia, Michoacán, C.P. 58270
                             Tel. 01-(443)-500-53-00
                             <div class="clearfix"></div>
                         </div>
                         <div class="footer-column column-a">
-                            <div class="footer-title"><a href="http://www.suzukivallarta.com.mx" target="_blank" style="color: #fff; font-weight: 900; font-size: 16px;">Av. Vallarta</a></div>
+                            <div class="footer-title"><a href="http://www.suzukivallarta.com.mx" target="_blank" style="color: #fff; font-weight: 900; font-size: 16px;">Suzuki Av. Vallarta</a></div>
                             Av. Vallarta No. 5300-A.<br/>
                             Col. Jardines Vallarta. Zapopan, Jal.<br/>
                             Tel. 01(33)3777-1989
                             <div class="clearfix"></div>
                         </div>
                         <div class="footer-column column-c">
-                            <div class="footer-title"><a href="http://www.suzuki-lm.com.mx" target="_blank" style="color: #fff; font-weight: 900; font-size: 16px;">Av. López Mateos</a></div>
+                            <div class="footer-title"><a href="http://www.suzuki-lm.com.mx" target="_blank" style="color: #fff; font-weight: 900; font-size: 16px;">Suzuki Av. López Mateos</a></div>
                             Av. López Mateos No. 5654<br/>
                             Col. Arboledas. Zapopan, Jal.<br/>
                             Tel. 01(33)3884-8200
